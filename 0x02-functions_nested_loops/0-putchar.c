@@ -1,4 +1,9 @@
 #include <main.h>
+
+/* main_entry point,
+ * return:always 0 
+ */
+
 int main(void)
 {
   putchar('_');
