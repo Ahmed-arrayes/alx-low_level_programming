@@ -2,19 +2,19 @@
 
 /**
  * print_listint - prints a linked lists
- * @h: pointer to first node. 
+ * @h: head of list. 
  *
- * Return: size of list.
+ * Return: number of nodes.
  */
 size_t print_listint(const listint_t *h)
 {
-	size_t l = 0;
+	size_t num = 0;
 
-	while (h != NULL)
+	while (num != NULL)
 	{
 		printf("%d\n", h->n);
 		h = h->next;
 		l++;
 	}
-	return (l);
+	return (num);
 }
